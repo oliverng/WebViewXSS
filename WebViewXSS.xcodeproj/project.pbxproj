@@ -14,6 +14,9 @@
 		D48D68111AD66CCA006E4B3C /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D48D68101AD66CCA006E4B3C /* Images.xcassets */; };
 		D48D68141AD66CCA006E4B3C /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = D48D68121AD66CCA006E4B3C /* LaunchScreen.xib */; };
 		D48D68201AD66CCA006E4B3C /* WebViewXSSTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D48D681F1AD66CCA006E4B3C /* WebViewXSSTests.m */; };
+		D48D682A1AD76632006E4B3C /* test.html in Resources */ = {isa = PBXBuildFile; fileRef = D48D68291AD76632006E4B3C /* test.html */; };
+		D48D682C1AD768E5006E4B3C /* findme.txt in Resources */ = {isa = PBXBuildFile; fileRef = D48D682B1AD768E5006E4B3C /* findme.txt */; };
+		D48D682E1AD76992006E4B3C /* image.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D48D682D1AD76992006E4B3C /* image.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +43,9 @@
 		D48D68191AD66CCA006E4B3C /* WebViewXSSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WebViewXSSTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D48D681E1AD66CCA006E4B3C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D48D681F1AD66CCA006E4B3C /* WebViewXSSTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WebViewXSSTests.m; sourceTree = "<group>"; };
+		D48D68291AD76632006E4B3C /* test.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = test.html; sourceTree = "<group>"; };
+		D48D682B1AD768E5006E4B3C /* findme.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = findme.txt; sourceTree = "<group>"; };
+		D48D682D1AD76992006E4B3C /* image.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = image.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +87,9 @@
 		D48D68021AD66CCA006E4B3C /* WebViewXSS */ = {
 			isa = PBXGroup;
 			children = (
+				D48D68291AD76632006E4B3C /* test.html */,
+				D48D682D1AD76992006E4B3C /* image.jpg */,
+				D48D682B1AD768E5006E4B3C /* findme.txt */,
 				D48D68071AD66CCA006E4B3C /* AppDelegate.h */,
 				D48D68081AD66CCA006E4B3C /* AppDelegate.m */,
 				D48D680A1AD66CCA006E4B3C /* ViewController.h */,
@@ -201,7 +210,10 @@
 			files = (
 				D48D680F1AD66CCA006E4B3C /* Main.storyboard in Resources */,
 				D48D68141AD66CCA006E4B3C /* LaunchScreen.xib in Resources */,
+				D48D682C1AD768E5006E4B3C /* findme.txt in Resources */,
+				D48D682A1AD76632006E4B3C /* test.html in Resources */,
 				D48D68111AD66CCA006E4B3C /* Images.xcassets in Resources */,
+				D48D682E1AD76992006E4B3C /* image.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
