@@ -2,8 +2,9 @@
 //  ViewController.m
 //  WebViewXSS
 //
-//  Created by Oliver and Vienne Ng on 9/4/15.
-//  Copyright (c) 2015 ONG. All rights reserved.
+//  Created by Oliver Ng on 30/5/15.
+//  Copyright (c) 2015 Security Compass. All rights reserved.
+//  http://www.securitycompass.com
 //
 
 #import "ViewController.h"
@@ -135,7 +136,7 @@
   UIAlertView *alert = [[UIAlertView alloc] initWithTitle:@"Look!"
                                                   message:messageStr
                                                  delegate:self
-                                        cancelButtonTitle:@"Uh huh."
+                                        cancelButtonTitle:@"Okay"
                                         otherButtonTitles:nil];
   [alert show];
 }
